@@ -21,7 +21,7 @@ if($psotjson['aski']=='register'){
     ");
 
 
-    if($query) $result = json_encode(array('succes'=>true));
+    if($query) $result = json_encode(array('success'=>true));
     else $result = json_encode(array('success'=>false, 'msg'=>'error, porfavor intente de nuevo'));
 
     echo $result;
